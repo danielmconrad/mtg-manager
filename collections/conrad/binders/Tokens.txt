@@ -95,3 +95,29 @@
 2 Moogle (TFIN) 11
 3 Robot (TEOE) 10
 1 Treasure (TLTR) 12
+1 Beast (TTRC) 4 *F*
+2 Borg (TTRK) 20
+2 Clue (TTRK) 22
+1 Human (TTRK) 1 *F*
+1 Illusion (TTRK) 24
+1 Insect (TTRC) 5 *F*
+1 Klingon Warrior (TTRK) 5 *F*
+1 Klingon Warrior (TTRK) 4 *F*
+1 Klingon Warrior (TTRK) 3
+1 Murf (TTRK) 16 *F*
+1 Neuroflux Heirloom (TTRK) 25
+4 New Planet (TTRK) 27 *F*
+3 New Planet (TTRK) 27
+1 Officer (TTRK) 9 *F*
+1 Officer (TTRK) 12 *F*
+1 Officer (TTRK) 8 *F*
+1 Officer (TTRK) 10 *F*
+1 Officer (TTRK) 8
+1 Officer (TTRK) 9
+1 Officer (TTRK) 6
+1 Officer (TTRK) 14
+1 Porthos (TTRK) 17
+1 Romulan (TTRK) 2 *F*
+1 Treasure (TTRK) 26
+2 Treasure (TTRK) 26 *F*
+1 Worm (TTRK) 18 *F*

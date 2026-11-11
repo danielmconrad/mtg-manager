@@ -1,9 +1,12 @@
 1 Access Tunnel (TDC) 337
 1 Adarkar Wastes (TDC) 338
+1 Andoria (TRK) 275 *F*
+2 Artificial Anomaly (TRK) 276
 1 Ash Barrens (FIC) 374
 1 Avengers Tower (MSH) 260
 1 Avengers Tower (MSH) 334
 1 Avishkar Raceway (DFT) 249
+1 Bajor (TRK) 277 *F*
 1 Battlefield Forge (TDC) 340
 1 Bleachbone Verge (DFT) 250
 1 Blossoming Sands (DFT) 252 *F*
@@ -11,6 +14,7 @@
 1 Bojuka Bog (TDC) 341
 1 Canopy Vista (TDC) 343
 1 Capital City (FIN) 274
+1 Cardassia Prime (TRK) 280
 1 Clifftop Retreat (TDC) 351
 2 Command Tower (DRC) 60
 1 Command Tower (TDC) 107
@@ -22,6 +26,8 @@
 1 Dragon-Cursed Halls (HOC) 8 *F*
 1 Dreamroot Cascade (SOS) 254
 1 Dromar's Cavern (DMR) 246
+1 Earth, Sector 001 (TRK) 281 *F*
+1 Earth, Sector 001 (TRK) 281
 1 Eclipsed Realms (ECL) 263
 3 Elvenking's Halls (HOB) 182
 1 Evolving Wilds (TDM) 255
@@ -41,6 +47,10 @@
 1 Forest (DFT) 276 *F*
 4 Forest (TDM) 285
 3 Forest (TDM) 286
+1 Forest (TRK) 486 *F*
+1 Forest (TRK) 316 *F*
+1 Forest (TRK) 311 *F*
+1 Forest (TRK) 325
 1 Formidable Commons (FRA) 178 *F*
 1 Fortified Village (TDC) 366
 1 Foul Roads (DFT) 255
@@ -48,6 +58,8 @@
 1 Gleaming Bastion (MSH) 267
 3 Goblin-town (HOB) 183
 1 Goblin-town (HOB) 183 *F*
+1 Hallowed Fountain (TRK) 286 *F*
+1 Hallowed Fountain (TRK) 392
 1 Hidden Lair (MSH) 269 *F*
 3 Hobbit Hole (HOB) 184
 1 Idyllic Beachfront (FIC) 404
@@ -68,6 +80,9 @@
 1 Island (LTR) 264
 1 Island (SPM) 190
 1 Island (TMT) 192 *F*
+2 Island (TRK) 483 *F*
+1 Island (TRK) 308 *F*
+2 Island (TRK) 313 *F*
 1 Isolated Chapel (FIC) 405
 1 Isolated Chapel (TDC) 373
 1 Jungle Hollow (DFT) 256
@@ -76,6 +91,8 @@
 1 Los Diablos Missile Base (MSH) 270
 1 Los Diablos Missile Base (MSH) 270 *F*
 1 Meticulous Commons (FRA) 184 *F*
+1 Minamo, School at Water's Edge (SDS) 27 *F*
+1 Minamo, School at Water's Edge (SDS) 27
 5 Mirkwood (HOB) 188
 1 Mirkwood (HOB) 188 *F*
 1 Mishra's Factory (DMR) 251
@@ -99,11 +116,16 @@
 1 Mountain (SPM) 197
 2 Mountain (DFT) 286
 1 Mountain (TDM) 284
+1 Mountain (TRK) 485 *F*
+1 Mountain (TRK) 315 *F*
+2 Mountain (TRK) 310 *F*
 1 Mystic Monastery (TDM) 262
 1 Nantuko Monastery (DMR) 252
 1 Night Market (DFT) 258
 1 Northampton Farm (TMT) 188
 1 Ominous Asylum (SPM) 181
+1 Orion (TRK) 288
+3 Orion (TRK) 288 *F*
 1 Overgrown Farmland (TDC) 381
 1 Paradox Gardens (SOS) 258
 1 Path of Ancestry (FIC) 411
@@ -132,10 +154,18 @@
 2 Plains (FRA) 383 *F*
 5 Plains (TDM) 277
 5 Plains (TDM) 278
+1 Plains (TRK) 482 *F*
+1 Plains (TRK) 312 *F*
+1 Plains (TRK) 318
+2 Plains (TRK) 307 *F*
 1 Prairie Stream (FIC) 413
 1 Prairie Stream (TDC) 384
+1 Q Continuum (TRK) 334
 1 Radiant Grove (TDC) 385
+1 Radiant Summit (TRC) 395
 1 Reef Roads (DFT) 259
+1 Romulus (TRK) 294 *F*
+1 Romulus (TRK) 294
 1 Room of Refuge (FRA) 188
 1 Room of Refuge (FRA) 188 *F*
 1 Rugged Prairie (TDC) 389
@@ -145,6 +175,7 @@
 1 Scavenger Grounds (FIC) 419
 1 Secluded Starforge (EOE) 316
 1 Shineshadow Snarl (FIC) 422
+1 Shineshadow Snarl (TRC) 400
 1 Silverquill Campus (SOC) 405
 1 Sinister Hideout (SPM) 184
 1 Sinister Hideout (SPM) 184 *F*
@@ -153,7 +184,12 @@
 1 Slippery Karst (DMR) 256
 1 Smoldering Crater (DMR) 257
 1 Soulstone Sanctuary (FDN) 133
+1 Spatial Anomaly (TRK) 296 *F*
+1 Spatial Anomaly (TRK) 296
+1 Starfleet Academy (TRK) 336 *F*
 1 Stingerquill Annex (FRA) 190 *F*
+1 Stomping Ground (TRK) 395
+1 Stomping Ground (TRK) 299
 1 Subterranean Cavern (MSH) 273
 1 Sungrass Prairie (TDC) 397
 1 Sunlit Marsh (FIC) 431
@@ -183,10 +219,13 @@
 1 Swamp (DFT) 283 *F*
 3 Swamp (TDM) 281
 2 Swamp (TDM) 282
+2 Swamp (TRK) 314 *F*
 1 TCRI Building (TMT) 189
+1 Temple Garden (TRK) 491 *F*
 1 Temple of Enlightenment (TDC) 401
 1 Temple of Malady (TDC) 403
 1 Temple of Plenty (TDC) 405
+1 Temple of Plenty (TRC) 412
 1 Temple of Silence (TDC) 406
 1 Temple of the False God (FIC) 438
 1 Temple of Triumph (TDC) 407
@@ -203,8 +242,11 @@
 1 Turtle Lair (TMT) 190 *F*
 1 Twilight Mire (TDC) 409
 1 Underground River (FIC) 439
+1 Unexplored Territory (TRK) 303
 2 University Campus (SPM) 186
 1 Vibrant Cityscape (SPM) 188
 1 Villainous Hideout (MSH) 276
+1 Vulcan (TRK) 305 *F*
+1 Watery Grave (TRK) 393
 1 Wind-Scarred Crag (TDM) 271 *F*
 1 Woodland Cemetery (TDC) 412
