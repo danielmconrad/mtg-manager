@@ -2,7 +2,7 @@
 schema_version: 1
 name: Kwia's Canopy
 format: commander
-status: draft
+status: archived
 target_bracket: 3
 plays_like_bracket: 2
 lowest_legal_bracket: 1

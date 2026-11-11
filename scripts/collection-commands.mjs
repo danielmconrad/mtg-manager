@@ -2,6 +2,7 @@
 import { cacheStatus, cardReports } from './card-report.mjs';
 import { collectionChanges, decksNaming } from './collection-diff.mjs';
 import { summarize } from './collection.mjs';
+import { isActiveDeck } from './deck.mjs';
 import {
   cacheStatusLine,
   cardReportLines,
@@ -82,7 +83,7 @@ export async function cardShow({ workspace, names, write, emit }) {
     workspace.loadCardIndex(),
     workspace.loadAllDecks(),
   ]);
-  const decks = loadedDecks.filter(({ deck }) => deck && deck.status !== 'example');
+  const decks = loadedDecks.filter(({ deck }) => isActiveDeck(deck));
   const reports = cardReports(names, { index, collections, decks });
   emit({ cards: reports.map(cardReportJson) });
   printAll(write, cardReportLines(reports));
@@ -100,7 +101,7 @@ export async function collectionDiff({ workspace, options, write, emit }) {
   const changes = collectionChanges(before, after);
   const decks = decksNaming(
     changes,
-    loadedDecks.filter(({ deck }) => deck && deck.status !== 'example'),
+    loadedDecks.filter(({ deck }) => isActiveDeck(deck)),
   );
   emit({ ref, collections: changes, decks });
   printAll(write, collectionDiffLines(ref, changes, decks));

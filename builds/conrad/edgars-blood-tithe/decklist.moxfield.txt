@@ -2,7 +2,7 @@ Commander
 1 Edgar, Ancient Bloodlord (FRA) 270
 
 Deck
-1 Command Tower (FIC) 382
+1 Command Tower (DRC) 60
 1 Bleachbone Verge (DFT) 250
 1 Isolated Chapel (FIC) 405
 1 Shineshadow Snarl (FIC) 422
@@ -10,34 +10,34 @@ Deck
 1 Sunlit Marsh (FIC) 431
 1 Path of Ancestry (FIC) 411
 1 Exotic Orchard (FIC) 390
-13 Plains (MDD) 292
+13 Plains (TDM) 277
 13 Swamp (HOB) 191
-1 Sol Ring (FIC) 359
+1 Sol Ring (MSC) 213
 1 Millikin (TDC) 321
 1 Talisman of Hierarchy (FIC) 365
-1 Thought Vessel (FIC) 368
+1 Thought Vessel (TRC) 509
 1 Black Market Connections (MSC) 155
 1 Night's Whisper (EOC) 85
 1 Kingpin's Enforcers (MSH) 102
 1 Nasty End (LTR) 99
 1 Faramir, Field Commander (LTR) 303
 1 Braids, Arisen Nightmare (EOC) 82
-1 Swords to Plowshares (FIC) 256
+1 Swords to Plowshares (TDC) 134
 1 Vindicate (FIC) 330
 1 Fatal Push (FCA) 9
 1 Stir Up Trouble (HOB) 84
 1 Murderous Rider // Swift End (FIC) 279
 1 Shire Shirriff (LTR) 441
-1 Hour of Reckoning (GK1) 104
-1 Lightning Greaves (LTC) 281
-1 Swiftfoot Boots (MSC) 216
-1 Spectacular Spider-Man (SPM) 14
+1 Hour of Reckoning (TDC) 120
+1 Lightning Greaves (TRC) 496
+1 Swiftfoot Boots (TRC) 501
+1 Spectacular Spider-Man (PSPL) 6
 1 Marauding Blight-Priest (FDN) 178
 1 Bastion of Remembrance (FIC) 274
 1 Mirkwood Bats (LTR) 421
 1 Exsanguinate (FIC) 276
 1 Gríma Wormtongue (LTR) 88
-1 Daxos, Blessed by the Sun (THB) 258
+1 Daxos, Blessed by the Sun (THB) 9
 1 Lingering Souls (FIC) 245
 1 Battle Screech (ONC) 59
 1 Champions from Beyond (FIC) 11
@@ -48,7 +48,7 @@ Deck
 Sideboard
 1 Liliana the Faultless (FRA) 293
 1 Common Crook (SPM) 53
-1 Authority of the Consuls (FIC) 232
+1 Authority of the Consuls (FDN) 137
 1 Spiteful Squad (STX) 237
 1 Hexhaven Battalion (FRA) 12
 1 Gothmog, Morgul Lieutenant (LTR) 429
@@ -60,7 +60,7 @@ Sideboard
 1 Inside Source (MKM) 19
 1 Gollum the Abandoned (HOB) 72
 1 Hot Dog Cart (SPM) 164
-1 Commander's Sphere (ECC) 139
+1 Commander's Sphere (TRC) 487
 1 Syphon Mind (FIC) 288
 1 Phial of Galadriel (LTR) 248
 1 Night Market (DFT) 258
@@ -84,7 +84,7 @@ Considering
 1 Heliod, Sun-Crowned (CMM) 29
 1 Walking Ballista (2XM) 306
 1 Exquisite Blood (LCC) 195
-1 Vito, Thorn of the Dusk Rose (M21) 127
+1 Vito, Thorn of the Dusk Rose (J25) 71
 1 Karmic Guide (SOC) 151
 1 Reveillark (2X2) 26
 1 Viscera Seer (SOC) 229
@@ -94,7 +94,7 @@ Considering
 1 Cruel Celebrant (LCC) 267
 1 Elas il-Kor, Sadistic Pilgrim (DMU) 198
 1 Teysa Karlov (CMM) 359
-1 Pitiless Plunderer (LCC) 208
+1 Pitiless Plunderer (J25) 476
 1 Ashnod's Altar (CMM) 368
 1 Skullclamp (TRC) 498
 1 Dark Ritual (MSC) 793
@@ -105,12 +105,12 @@ Considering
 1 Diabolic Intent (BRO) 89
 1 Grand Abolisher (BIG) 2
 1 Silence (M14) 35
-1 Infernal Grasp (SOC) 216
-1 Path to Exile (TRC) 425
+1 Infernal Grasp (TDC) 182
+1 Path to Exile (FIC) 248
 1 Deadly Dispute (MSC) 794
 1 Village Rites (INR) 137
-1 Toxic Deluge (TRC) 448
-1 Anguished Unmaking (TRC) 472
+1 Toxic Deluge (TRC) 277
+1 Anguished Unmaking (TDC) 279
 1 Mortify (FDN) 662
 1 Midnight Reaper (FDN) 609
 1 Snuff Out (FIC) 285

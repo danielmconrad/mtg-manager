@@ -252,12 +252,13 @@ export async function deckUpgrades({ workspace, slug, now, write, emit }) {
 }
 
 // --status and --decks narrow the decks checked. A deck file that doesn't parse has no status, so it's
-// checked whenever its path matches.
+// checked whenever its path matches. Archived decks are left out unless --status archived asks for them.
 function selectDecks(loadedDecks, options) {
   const patterns = options.decks ? patternList(options.decks) : [];
   return loadedDecks.filter(({ slug, deck }) => {
     if (patterns.length && !patterns.some((pattern) => posix.matchesGlob(slug, pattern))) return false;
-    return !options.status || !deck || deck.status === options.status;
+    if (!deck) return true;
+    return options.status ? deck.status === options.status : deck.status !== 'archived';
   });
 }
 

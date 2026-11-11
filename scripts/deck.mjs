@@ -14,6 +14,11 @@ export const PRIMER_PLACEHOLDER = 'Describe the game plan.';
 
 export const deckEntries = (deck) => [...deck.commanders, ...deck.mainboard];
 
+// Decks that commands mention unprompted: not the example template, and not archived decks, which the
+// user has given up on building and doesn't want named in reports.
+const QUIET_STATUSES = new Set(['example', 'archived']);
+export const isActiveDeck = (deck) => Boolean(deck) && !QUIET_STATUSES.has(deck.status);
+
 export function parseDeck(text, source = 'deck') {
   const document = parseDocument(text, { uniqueKeys: true });
   if (document.errors.length) throw new Error(`${source}: ${document.errors.map((error) => error.message).join('; ')}`);

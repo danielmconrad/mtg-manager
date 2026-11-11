@@ -372,12 +372,12 @@ export const COMMANDS = {
     run: decksCheck,
     summary: 'Check every deck independently; the example is schema-checked only',
     details:
-      'mise run check runs it with --status built, so drafts in progress never turn the code check red; run it plain to see every deck.',
+      'mise run check runs it with --status built, so drafts in progress never turn the code check red; run it plain to see every deck except archived ones, which only --status archived checks.',
     options: {
       status: {
         type: 'string',
         placeholder: 'STATUS',
-        choices: ['draft', 'built'],
+        choices: ['draft', 'built', 'archived'],
         description: 'Only decks with this status',
       },
       decks: {

@@ -123,6 +123,26 @@ test('decks:check --status and --decks narrow the decks checked', () =>
     assert.equal(stdout.pop(), 'No decks match.');
   }));
 
+test('archived decks are left out of decks:check and card:show unless --status archived asks', () =>
+  inWorkspace(async ({ root, cli, writeDeck, stdout }) => {
+    await writeDeck({ ...casualDeck([{ name: 'Forest', quantity: 59 }]), status: 'archived' });
+    await mkdir(join(root, 'builds', 'conrad', 'done'), { recursive: true });
+    await writeFile(
+      join(root, 'builds', 'conrad', 'done', 'deck.yaml'),
+      stringify({ ...casualDeck(), status: 'built' }),
+    );
+    assert.equal(await cli('decks:check'), 0);
+    assert.deepEqual(stdout, ['PASS: conrad/done (60 cards)']);
+    stdout.length = 0;
+    assert.equal(await cli('decks:check', '--status', 'archived'), 1);
+    assert.match(stdout.join('\n'), /fixture/);
+    assert.doesNotMatch(stdout.join('\n'), /conrad\/done/);
+    stdout.length = 0;
+    assert.equal(await cli('card:show', 'Forest'), 0);
+    assert.match(stdout.join('\n'), /conrad\/done/);
+    assert.doesNotMatch(stdout.join('\n'), /\bfixture\b/);
+  }));
+
 test('deck:new writes the chosen commander into a new draft', () =>
   inWorkspace(async ({ root, cli }) => {
     assert.equal(await cli('deck:new', 'green-value', '--commander', 'Example Leader'), 0);

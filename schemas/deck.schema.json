@@ -8,7 +8,7 @@
     "schema_version": { "const": 1 },
     "name": { "$ref": "#/definitions/text" },
     "format": { "enum": ["commander", "custom-dollar-brawl", "casual-60"] },
-    "status": { "enum": ["example", "draft", "built"] },
+    "status": { "enum": ["example", "draft", "built", "archived"] },
     "allow_proxies": { "type": "boolean" },
     "unlimited_basics": { "type": "boolean" },
     "target_bracket": {

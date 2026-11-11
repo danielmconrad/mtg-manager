@@ -1,5 +1,6 @@
 // collection:commanders and edhrec:refresh: which commanders, owned or not, the collection supports.
 import { commanderFilters, rankCommanders } from './commanders.mjs';
+import { isActiveDeck } from './deck.mjs';
 import { DEFAULT_MAX_AGE_DAYS, emptyEdhrecCache, fetchPages, isStale } from './edhrec.mjs';
 import { commanderLines, printAll } from './format.mjs';
 import { commanderJson } from './json.mjs';
@@ -19,7 +20,7 @@ async function loadRanking(workspace, options, warn, edhrecCache = workspace.loa
       'The card cache holds only collection and deck cards, so unowned commanders are missing; scryfall:refresh -- --bulk caches every card',
     );
   }
-  const decks = loadedDecks.filter(({ deck }) => deck && deck.status !== 'example');
+  const decks = loadedDecks.filter(({ deck }) => isActiveDeck(deck));
   const filters = commanderFilters(options);
   const ranking = rankCommanders(collections, index, filters, { edhrec: edhrec.commanders, decks });
   if (ranking.unresolvedRows) {
